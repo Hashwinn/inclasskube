@@ -5,7 +5,7 @@ ngnix:
     env: dev
     stack: ngnix
   image:
-    repository: vicky04/nginx
+    repository: inclasskube/nginx
     tag: v1
     pullPolicy: Always
   replicas: 5

@@ -5,7 +5,7 @@ ngnix:
     env: stage
     stack: ngnix
   image:
-    repository: msalim22/wp
+    repository: inclasskube/wp
     tag: v2
     pullPolicy: Always
   replicas: 3
